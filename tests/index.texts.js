@@ -1,3 +1,3 @@
-TextTrackList("it should pass",()=>{
+Test("it should pass",()=>{
     expext(true).toBe(true);
 });
