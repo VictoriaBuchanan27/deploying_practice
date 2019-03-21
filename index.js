@@ -5,7 +5,7 @@ app.get ('/ping', (req,res)=>{
     res.json({'pong':🍔});
 });
 
-const port= 7272;
+const port= process.env.PORT || 7272;
 app.listen(port,()=>{
     console.log(`Listening to port ${port}`)
 })
