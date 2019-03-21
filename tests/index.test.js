@@ -1,3 +1,3 @@
-Test("it should pass",()=>{
-    expext(true).toBe(true);
+test('it should pass', () => {
+    expect(true).toBe(true);
 });
